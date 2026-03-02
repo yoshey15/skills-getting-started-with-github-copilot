@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         activitiesList.appendChild(activityCard);
 
-        // Add option to select dropdown
+        // cAdd option to select dropdown
         const option = document.createElement("option");
         option.value = name;
         option.textContent = name;
